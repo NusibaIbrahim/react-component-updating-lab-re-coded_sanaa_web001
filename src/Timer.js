@@ -18,6 +18,7 @@ class Timer extends Component {
       this.clockTick,
       this.props.updateInterval * 1000
     );
+  
   }
 
   componentWillUnmount() {
